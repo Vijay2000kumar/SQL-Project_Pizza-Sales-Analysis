@@ -152,5 +152,8 @@ This table lists individual pizzas, including the pizza ID, type ID, size, and p
 
 ### Basic Queries
 1. **Retrieve the total number of orders placed:**
-   ```sql
-   SELECT COUNT(*) AS total_orders FROM order_id;
+2. **Retrieve the total number of orders placed:**
+3. **Retrieve the total number of orders placed:**
+4. **Retrieve the total number of orders placed:**
+   
+   
