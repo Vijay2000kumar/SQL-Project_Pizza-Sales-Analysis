@@ -5,6 +5,9 @@
 This project involves analyzing pizza orders using SQL. The data is organized across multiple tables, each capturing different aspects of the orders, including order details, pizza types, and pricing.
 
 ## Datasets Schema
+## Pizza Sales Project ER Diagram
+
+```
 +------------------+         +-----------------+
 | order_details    |         | order_id        |
 +------------------+         +-----------------+
@@ -29,12 +32,12 @@ This project involves analyzing pizza orders using SQL. The data is organized ac
 +------------------+  |
 | pizza_id         |  |
 +------------------+  |
-| pizza_id         |<------+
-| pizza_type_id    |
-| size             |
-| price            |
+| pizza_id         |<-+
+| pizza_type_id    |  +------------------+
+| size             |  | pizzatype_id     |
+| price            |  +------------------+
 +------------------+
-
+```
 ### 1. Table: `order_details`
 This table contains details about each order, including the unique order details ID, the order ID it belongs to, the pizza ID, and the quantity of each pizza ordered.
 
